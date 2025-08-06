@@ -1,0 +1,9 @@
+nav a{
+    text-decoration: none;
+    
+    padding: 20px;
+    display: inline-block;
+}
+nav a:link,nav a:visited{
+    color: white;
+}

@@ -1,0 +1,18 @@
+nav{
+    background-color: aqua;
+}
+nav a{
+    text-decoration: none;
+    
+    padding: 20px;
+    display: inline-block;
+}
+nav a:link,nav a:visited{
+    color: rgb(9, 8, 8);
+}
+nav a:hover,nav a:active{
+    color: black;
+}
+nav a:nth-child(4){
+    float: right;
+}

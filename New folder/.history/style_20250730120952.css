@@ -1,0 +1,47 @@
+color1{
+    color:brown;
+}
+nav{
+    background-color: rgb(47, 0, 255);
+}
+nav a{
+    text-decoration: none;
+    
+    padding: 20px;
+    display: inline-block;
+}
+nav a:link,nav a:visited{
+    color: rgb(244, 240, 240);
+}
+nav a:hover,nav a:active{
+    color: black;
+}
+nav a:nth-child(4){
+    float: right;
+}
+body{
+    background-image:url(img/download.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px 60px ;
+}
+input[type="submit"]{
+    background-color: var( -- color1);
+    font-weight: 900;
+    color:white;
+    font-size: larger;
+}
+input[type="submit"]:hover{
+    background-color: #406849;
+}
+input[type="text"]{
+    background-image:url(img/memes-pics-funny-pictures-x9ubs1yyghwci64t.webp)
+}
+input[type="password"]{
+    background i
+}
